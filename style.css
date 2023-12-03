@@ -1,0 +1,104 @@
+body {
+    background-color: #f5bfc6;
+    font-family: inherit; /* Set font to default */
+}
+
+h1 {
+    text-align: center;
+}
+
+.navbar ul {
+    list-style-type: none;
+    background-color: gray;
+    padding: 0;
+    margin-top: 30px;
+    overflow: hidden;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Căn chỉnh theo chiều dọc */
+    height: 35px; /* Điều chỉnh chiều cao để tạo khoảng cách */
+}
+
+.navbar a:hover {
+    background-color: #e8c156;
+}
+
+.navbar li {
+    float: left;
+}
+/* -------------------------------------------------- */
+div {
+    margin-left: 40%;
+    padding: 20px;
+}
+
+#avt {
+    margin-left: 20px;
+    border-radius: 200%;
+    float: left;
+}
+
+
+
+/* this css only for css */
+/* ----------------------------------------------------------------------- */
+
+.home{
+    margin-top: 5%;
+    margin-left: 35%;
+}
+.contact{
+    margin-left: 35%;
+}
+
+.sharing{
+    margin-left: 35%;
+}
+
+
+#project {
+    box-sizing: border-box;
+}
+
+
+aside{
+    margin-left: 70px;
+    width: 40%;
+    float: left;
+}
+
+
+section{
+    margin-left: 60px;
+    margin-top: 50px;
+    width: 50%;
+    float: left;
+}
+
+section img{
+    margin-left: 80px;
+    width: 55%;
+    height: 250px;
+    margin-bottom: 60px;
+}
+
+section video{
+    margin-left: 80px;
+    width: 55%;
+
+}
+
+#python{
+    margin-bottom: 0px;
+}
+
+#tourguide{
+    margin-top: 40px;
+}
